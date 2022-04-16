@@ -22,7 +22,7 @@ const Get_Data = () => async (dispatch) => {
 
     dispatch(reqCityData())
 
-    axios.get("https://reactreduxtesteval.herokuapp.com/cities").then((res) => {
+    axios.get("https://reactreduxtesteval.herokuapp.com/add-city").then((res) => {
         console.log("resp", res.data)
         dispatch(getCityData(res.data))
     }).catch((error) => {
