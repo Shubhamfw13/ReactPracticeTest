@@ -31,7 +31,7 @@ export const AddCountryy = () => {
         onChange={handleChange}
       />
       <br /> <br />
-      <Button variant="contained" color="success" onClick={addcountry}>
+      <Button variant="outlined" color="success" onClick={addcountry}>
         Add Country
       </Button>
     </>

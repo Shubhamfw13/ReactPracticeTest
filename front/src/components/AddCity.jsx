@@ -44,7 +44,7 @@ export const AddCityy = () => {
         onChange={handleChange}
       />
       <br /> <br />
-      <Button variant="contained" color="success" onClick={addcity}>
+      <Button variant="outlined" color="success" onClick={addcity}>
         Add City
       </Button>
     </>
