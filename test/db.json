@@ -1,0 +1,14 @@
+{
+  "add-country": [
+    {
+      "country": "India",
+      "id": 1
+    }
+  ],
+  "add-city": [
+    {
+      "city": "Patna",
+      "id": 1
+    }
+  ]
+}
