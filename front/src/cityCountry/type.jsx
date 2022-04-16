@@ -10,6 +10,18 @@ export const CITY_ADDED = "CITY_ADDED"
 
 export const CITY_ADD_FAIL = "CITY_ADD_FAIL"
 
+export const GET_COUNTRY_DATA = "GET_COUNTRY_DATA"
+
+export const REQ_CITY_DATA = "REQ_CITY_DATA"
+
+export const GET_CITY_DATA = "GET_CITY_DATA"
+
+export const REQ_CITY_DATA_FAIL = "REQ_CITY_DATA_FAIL"
+
+
+
+
+
 
 
 

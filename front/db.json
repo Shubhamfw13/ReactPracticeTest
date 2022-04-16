@@ -1,0 +1,62 @@
+{
+  "add-country": [
+    {
+      "country": "asd",
+      "id": 10
+    },
+    {
+      "country": "India",
+      "id": 11
+    },
+    {
+      "country": "US",
+      "id": 12
+    },
+    {
+      "country": "US",
+      "id": 13
+    },
+    {
+      "country": "India",
+      "id": 14
+    },
+    {
+      "city": "Wani",
+      "id": 15
+    },
+    {
+      "city": "New Wardha",
+      "id": 16
+    }
+  ],
+  "add-city": [
+    {
+      "city": "Nagpur",
+      "id": 1
+    },
+    {
+      "city": "Nagpur",
+      "id": 2
+    },
+    {
+      "city": "Nagpur MH",
+      "id": 3
+    },
+    {
+      "city": "Indore",
+      "id": 4
+    },
+    {
+      "city": "Nagpur",
+      "id": 5
+    },
+    {
+      "city": "GOA",
+      "id": 6
+    },
+    {
+      "city": "Mumbai",
+      "id": 7
+    }
+  ]
+}

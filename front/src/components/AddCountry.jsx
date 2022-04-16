@@ -4,6 +4,13 @@ import { useDispatch, useSelector } from "react-redux"
 import { AddCountry } from "../cityCountry/action"
 export const AddCountryy = () => {
 
+    const data = useSelector((state) => state.cityCountry)
+
+    console.log(data)
+
+    // console.log("C", c)
+    // console.log("city", ci)
+
     const [country, setCountry] = useState({
         country: ""
     })
@@ -21,10 +28,6 @@ export const AddCountryy = () => {
         setCountry({ ...country, [className]: value })
 
     }
-
-
-
-
     return <>
         <h2>Add Country</h2>
         <input type="text" placeholder="enter country" className='country' onChange={handleChange} />
